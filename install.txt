@@ -20,6 +20,6 @@ echo -e "\rDone download libraries"
 echo -n "Downloading pm2.." 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo bash - &>/dev/null; sudo apt-get update &>/dev/null; sudo apt install nodejs -y &>/dev/null; sudo npm install -g pm2 &>/dev/null
 echo -e "\rDone download pm2"
-echo -n "Downloading Tshake Source.." 
+echo -n "Downloading rickthon Source.." 
 git clone https://github.com/rick1128/rickthon-test.git &>/dev/null
 echo -e "\rDone Rickthon Source"
